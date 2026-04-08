@@ -1,20 +1,24 @@
+<img src="foto.jpg" alt="Riccardo Beninatto" width="150" align="right" style="margin:10px;">
+
 # Riccardo Beninatto
 
-📍 Breda di Piave (TV), Veneto | 📞 340 958 5817 | ✉️ beninatto.riccardo@gmail.com  
+📍 Via 11 Febbraio, 2, 31030, Breda di Piave, Treviso | 📞 340 958 5817 | ✉️ beninatto.riccardo@gmail.com  
 🔗 [GitHub](https://github.com/bennaloz) | 🇮🇹 Italiano | 🇬🇧 Inglese B2  
-Nato il 03/01/1992 | Patente A, B
+Nato il 03/01/1992 | Sesso M | Nazionalità Italiano | Patente A, B
 
 ---
 
-## 🎯 Profilo Professionale
+## 🎯 Sintesi Professionale
 
-**Senior .NET Developer / Tech Lead** con oltre 14 anni di esperienza nello sviluppo di soluzioni enterprise in ambito .NET/C#, maturata in contesti industriali ad alta complessità (automotive, WMS, manifatturiero).
+Diplomato come Perito Informatico presso l'I.T.I.S. Max Planck di Villorba, ho iniziato il mio percorso professionale in TEXA come sviluppatore di applicazioni desktop in C# .NET. Durante il mio percorso in azienda, ho assunto ruoli di crescente responsabilità, fino a diventare coordinatore di un team di sviluppatori, con l'obiettivo di ottimizzare i processi interni per la gestione dei dati aziendali e supervisionare progetti strategici. Durante l'intero 2024, ho guidato lo sviluppo di un sistema innovativo per la produzione, installazione e aggiornamento del software della divisione Garage Equipment, distribuito a livello globale per supportare le officine meccaniche nella diagnostica dei veicoli.
 
-Esperienza consolidata nella progettazione e sviluppo di architetture distribuite — da applicazioni monolitiche on-premise a sistemi a microservizi cloud-native su Azure — con focus su **Clean Architecture, Domain-Driven Design e pattern di messaging asincrono**.
+Nel corso della mia esperienza in TEXA, ho acquisito esperienza con le metodologie Agile, in particolare con il framework Scrum, con i principali pattern architetturali, quali DDD, Abstract Factory, e con i principi SOLID.
 
-Dal 2022 ho assunto responsabilità di **coordinamento tecnico e gestione team**, guidando un gruppo di sviluppatori in R&D per la delivery di progetti strategici distribuiti a livello globale.
+**Occupazione Attuale:** Sviluppatore software
 
-Cerco un ruolo che coniughi **leadership tecnica e sviluppo hands-on**, in un contesto collaborativo che valorizzi qualità del codice, architetture moderne e crescita continua.
+### 🔭 Prospettive Future
+
+Sono alla ricerca di una posizione che mi consenta di sfruttare l'esperienza maturata nello sviluppo di soluzioni .NET C#, sia on-premise che on-cloud. Mi interessa un ruolo che coniughi responsabilità manageriali e collaborazione tecnica, in un contesto di lavoro ordinato e collaborativo, che valorizzi un approccio equilibrato e di qualità.
 
 ---
 
@@ -38,6 +42,7 @@ Cerco un ruolo che coniughi **leadership tecnica e sviluppo hands-on**, in un co
 **Stesi S.r.l.** — San Fior (TV)  
 📅 Luglio 2025 – Dicembre 2025
 
+- Fase di inserimento iniziale in cui provvedo allo sviluppo di attività secondarie nell'ottica di acquisire il know-how specifico del dominio aziendale.
 - Sviluppo di un sistema di **interfacciamento EDI** tra il database aziendale e partner esterni tramite server AS2
 - Analisi e acquisizione del dominio **WMS (Warehouse Management System)**
 - Sviluppo di componenti di integrazione con focus su affidabilità e tracciabilità dei flussi dati
@@ -58,6 +63,8 @@ Cerco un ruolo che coniughi **leadership tecnica e sviluppo hands-on**, in un co
 - Adozione e promozione di metodologie **Agile/Scrum** nel team
 
 **Sviluppo & Architettura (2011–2025):**
+- Sviluppo e manutenzione di software per la gestione di un **database aziendale in formato proprietario**
+- Sviluppo setup tramite **NSIS**
 - Progettazione e sviluppo di **servizi cloud Azure**: WebApp, Azure Functions, SQL Database, Azure Service Bus, Application Insights, Key Vault
 - Sviluppo di **Web API RESTful** con ASP.NET Core e servizi WCF
 - Sviluppo portale web **ASP.NET MVC 5** con frontend **Angular/TypeScript**
@@ -67,6 +74,8 @@ Cerco un ruolo che coniughi **leadership tecnica e sviluppo hands-on**, in un co
 - Implementazione di **unit test** con **MSTest**, **xUnit** e **Moq** a supporto della qualità del codice su progetti critici (dal 2020)
 - Creazione di **pipeline CI/CD** su **Azure DevOps** per build, test e deploy automatizzati
 - Sviluppo di processi automatizzati di elaborazione dati con scheduling e notifiche integrate
+- Supervisione di progetti ad uso interno per la **produzione dati a scopo aziendale**
+- Gestione progetti legati ai principali **business aziendali**
 
 **Tech stack:** C# .NET/.NET Core, Azure (WebApp, Functions, Service Bus, SQL, App Insights, Key Vault), ASP.NET MVC/Web API, Angular, TypeScript, ElasticSearch, Solr, WPF, WCF, MSTest, xUnit, Moq, Azure DevOps, Git
 
@@ -80,8 +89,9 @@ Cerco un ruolo che coniughi **leadership tecnica e sviluppo hands-on**, in un co
 | Area | Tecnologie |
 |---|---|
 | **Backend** | C# .NET 8 / .NET Core, ASP.NET Core Web API, ASP.NET MVC, WCF |
-| **Frontend** | Angular, TypeScript, JavaScript, jQuery, Bootstrap, Material Design |
+| **Frontend** | Angular, TypeScript, JavaScript, jQuery, Bootstrap, Google Material |
 | **Desktop** | WPF, Windows Forms, Windows CE |
+| **Scripting/Altri** | NSIS, XSLT, JSON |
 
 ### Architettura & Pattern
 | Area | Competenze |
@@ -89,7 +99,8 @@ Cerco un ruolo che coniughi **leadership tecnica e sviluppo hands-on**, in un co
 | **Architettura** | Clean Architecture, Domain-Driven Design (DDD), Microservizi, Monolith |
 | **Pattern** | CQRS (MediatR), Repository, Abstract Factory, Dependency Injection |
 | **Principi** | SOLID, DRY, KISS, Separation of Concerns |
-| **Messaging** | RabbitMQ (MQTT), Azure Service Bus, pattern Pub/Sub |
+| **Messaging** | RabbitMQ, Azure Service Bus, pattern Pub/Sub |
+| **Protocolli IoT** | MQTT |
 | **Resilienza** | Polly (Retry, Circuit Breaker, Timeout, Bulkhead) |
 
 ### Cloud & DevOps
@@ -138,10 +149,28 @@ Cerco un ruolo che coniughi **leadership tecnica e sviluppo hands-on**, in un co
 
 ---
 
+## 🤝 Competenze Personali
+
+**Capacità comunicative:**
+- Ottima capacità e sensibilità nell'ascolto e di entrare in empatia con il prossimo.
+
+**Competenze professionali:**
+- Dinamicità nell'apprendimento e flessibilità. Buona capacità organizzativa nella pianificazione delle attività sulla base delle priorità stabilite.
+- Da aprile 2022 ho formato un mio gruppo di lavoro all'interno dell'ufficio di R&D, così da avere la possibilità di migliorare le attività di sviluppo e gestione dei progetti.
+
+---
+
+## 🌱 Altre Competenze
+
+- Giardinaggio, fitness e nutrizione
+
+---
+
 ## 📜 Formazione Complementare
 
+- **Seminario 16 ore su nutrizione ed integrazione sportiva** — Privato Marco Venturi (2015) — Biblioteca comunale San Polo di Piave
 - **Progettista AutoCAD 2D/3D** — Pragma (2013–2014) — Voto: 28/30
-- **Istruttore BodyBuilding & Fitness 1° Livello** — C.S.E.N. (2014) — Massimo dei voti
+- **Istruttore BodyBuilding & Fitness 1° Livello** — C.S.E.N. (2014) — Anatomia, Fisiologia e Biomeccanica base — Massimo dei voti
 
 ---
 
@@ -151,4 +180,4 @@ Cerco un ruolo che coniughi **leadership tecnica e sviluppo hands-on**, in un co
 
 ---
 
-*Autorizzo il trattamento dei miei dati personali ai sensi del Decreto Legislativo 30 giugno 2003, n. 196 e del GDPR (Regolamento UE 2016/679).*
+*Autorizzo il trattamento dei miei dati personali ai sensi del Decreto Legislativo 30 giugno 2003, n. 196 "Codice in materia di protezione dei dati personali".*
