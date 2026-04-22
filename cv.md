@@ -1,4 +1,4 @@
-<img src="foto.jpg" alt="Riccardo Beninatto" width="150" align="right" style="margin:10px;">
+<img src="Foto CV.jpg" alt="Riccardo Beninatto" width="150" align="right" style="margin:10px;">
 
 # Riccardo Beninatto
 
