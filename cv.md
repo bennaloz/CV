@@ -30,11 +30,14 @@ Sono alla ricerca di una posizione che mi consenta di sfruttare l'esperienza mat
 
 - Progettazione e sviluppo di un **sistema a microservizi** con comunicazione asincrona tramite **RabbitMQ (MQTT)**
 - Integrazione con database **MongoDB** e **SQL Server** in architettura poliglotta
-- Implementazione di pattern di **resilienza** (retry, circuit breaker) con **Polly**
+- Implementazione di pattern di **resilienza** (retry, circuit breaker)
 - Containerizzazione dei servizi con **Docker** e orchestrazione in ambienti multi-container con **Docker Compose**
+- Configurazione di **pipeline CI/CD** su **Azure DevOps** per build, test e deploy automatizzati
 - Applicazione di **Clean Architecture** e principi **SOLID** per garantire manutenibilità e testabilità
+- Adozione di pratiche di **sicurezza software**: gestione sicura dei segreti e delle credenziali tramite **Azure Key Vault**, enforcement HTTPS, input validation e prevenzione delle vulnerabilità comuni (OWASP Top 10)
+- Utilizzo di **coding agents AI** (es. GitHub Copilot) per aumentare la produttività e la qualità del codice
 
-**Tech stack:** C# .NET 8, RabbitMQ, MongoDB, SQL Server, Docker, Polly, MSTest, xUnit
+**Tech stack:** C# .NET 8, RabbitMQ, MongoDB, SQL Server, Docker, Azure DevOps, MSTest, xUnit
 
 ---
 
@@ -61,6 +64,8 @@ Sono alla ricerca di una posizione che mi consenta di sfruttare l'esperienza mat
 - Guida dello sviluppo di un **sistema innovativo per la produzione, installazione e aggiornamento software** della divisione Garage Equipment, distribuito a **livello globale** per la diagnostica veicolare
 - Supervisione tecnica delle risorse e mentoring dei junior developer
 - Adozione e promozione di metodologie **Agile/Scrum** nel team
+- Adozione di pratiche di **sicurezza software nello sviluppo**: gestione sicura di segreti e password tramite **Azure Key Vault**, Managed Identity, HTTPS enforcement e prevenzione delle vulnerabilità (OWASP Top 10)
+- Utilizzo di **coding agents AI** (es. GitHub Copilot) per aumentare la produttività del team e migliorare la qualità del codice
 
 **Sviluppo & Architettura (2011–2025):**
 - Sviluppo e manutenzione di software per la gestione di un **database aziendale in formato proprietario**
@@ -73,6 +78,7 @@ Sono alla ricerca di una posizione che mi consenta di sfruttare l'esperienza mat
 - Sviluppo software embedded **Windows CE** per dispositivi diagnostici
 - Implementazione di **unit test** con **MSTest**, **xUnit** e **Moq** a supporto della qualità del codice su progetti critici (dal 2020)
 - Creazione di **pipeline CI/CD** su **Azure DevOps** per build, test e deploy automatizzati
+- Utilizzo di **coding agents AI** (es. GitHub Copilot) per aumentare la produttività e accelerare lo sviluppo
 - Sviluppo di processi automatizzati di elaborazione dati con scheduling e notifiche integrate
 - Supervisione di progetti ad uso interno per la **produzione dati a scopo aziendale**
 - Gestione progetti legati ai principali **business aziendali**
@@ -101,7 +107,7 @@ Sono alla ricerca di una posizione che mi consenta di sfruttare l'esperienza mat
 | **Principi** | SOLID, DRY, KISS, Separation of Concerns |
 | **Messaging** | RabbitMQ, Azure Service Bus, pattern Pub/Sub |
 | **Protocolli IoT** | MQTT |
-| **Resilienza** | Polly (Retry, Circuit Breaker, Timeout, Bulkhead) |
+| **Resilienza** | Retry, Circuit Breaker, Timeout, Bulkhead |
 
 ### Cloud & DevOps
 | Area | Tecnologie |
@@ -123,12 +129,14 @@ Sono alla ricerca di una posizione che mi consenta di sfruttare l'esperienza mat
 |---|---|
 | **Unit Testing** | MSTest, xUnit, Moq, FluentAssertions |
 | **Approccio** | Test-driven development, code review sistematiche |
+| **AI & Produttività** | GitHub Copilot, coding agents AI |
 
 ### Security
 | Area | Competenze |
 |---|---|
 | **Fondamenti** | OWASP Top 10, input validation, autenticazione/autorizzazione sicura |
 | **Azure** | Key Vault, Managed Identity, HTTPS enforcement |
+| **Segreti & Credenziali** | Gestione sicura di segreti, password e chiavi API (Key Vault, variabili d'ambiente protette, no hardcoding) |
 
 ---
 
@@ -176,7 +184,7 @@ Sono alla ricerca di una posizione che mi consenta di sfruttare l'esperienza mat
 
 ## 🏷️ Keywords
 
-`.NET` `C#` `Azure` `Microservizi` `Clean Architecture` `DDD` `CQRS` `RabbitMQ` `Docker` `SQL Server` `MongoDB` `ElasticSearch` `Angular` `TypeScript` `CI/CD` `Azure DevOps` `Polly` `MSTest` `xUnit` `OWASP` `Team Leadership` `Agile` `Scrum`
+`.NET` `C#` `Azure` `Microservizi` `Clean Architecture` `DDD` `CQRS` `RabbitMQ` `Docker` `SQL Server` `MongoDB` `ElasticSearch` `Angular` `TypeScript` `CI/CD` `Azure DevOps` `GitHub Copilot` `MSTest` `xUnit` `OWASP` `Team Leadership` `Agile` `Scrum`
 
 ---
 
