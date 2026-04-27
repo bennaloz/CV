@@ -1,10 +1,15 @@
-<img src="Foto CV.jpg" alt="Riccardo Beninatto" width="150" align="right" style="margin:10px;">
+<table><tr>
+<td>
 
 # Riccardo Beninatto
 
 📍 Via 11 Febbraio, 2, 31030, Breda di Piave, Treviso | 📞 340 958 5817 | ✉️ beninatto.riccardo@gmail.com  
-🔗 [GitHub](https://github.com/bennaloz) | 🔗 LinkedIn (URL da confermare) | 🇮🇹 Italiano | 🇬🇧 Inglese B2  
+🔗 [GitHub](https://github.com/bennaloz) | 🔗 [LinkedIn](https://www.linkedin.com/in/riccardo-beninatto-23444265/) | 🇮🇹 Italiano | 🇬🇧 Inglese B2  
 Nato il 03/01/1992 | Sesso M | Nazionalità Italiano | Patente A, B
+
+</td>
+<td><img src="Foto CV.jpg" alt="Riccardo Beninatto" width="150"></td>
+</tr></table>
 
 ---
 
