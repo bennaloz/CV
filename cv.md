@@ -40,7 +40,7 @@ Sono alla ricerca di ruoli come **Backend Architect** o **Tech Lead .NET**, in c
 - Configurazione di **pipeline su Azure DevOps** per delivery automatizzata (**build/test/deploy**), senza Continuous Deployment
 - Applicazione di **Clean Architecture** e principi **SOLID** per garantire manutenibilità e testabilità
 - Adozione di pratiche di **sicurezza software**: gestione sicura dei segreti e delle credenziali tramite **Azure Key Vault**, enforcement HTTPS, input validation e prevenzione delle vulnerabilità comuni (OWASP Top 10)
-- Utilizzo di **coding agents AI** (es. GitHub Copilot) per aumentare la produttività e la qualità del codice
+- Utilizzo di **coding agents AI** (es. GitHub Copilot, OpenCode) per aumentare la produttività e la qualità del codice
 
 **Tech stack:** C# .NET 8, RabbitMQ, MongoDB, SQL Server, Docker, Azure DevOps, MSTest, xUnit
 
@@ -109,7 +109,7 @@ Sono alla ricerca di ruoli come **Backend Architect** o **Tech Lead .NET**, in c
 | Area | Competenze |
 |---|---|
 | **Architettura** | Clean Architecture, Domain-Driven Design (DDD), Microservizi, Monolith |
-| **Pattern** | CQRS (MediatR), Repository, Abstract Factory, Dependency Injection |
+| **Pattern** | CQRS (MediatR), Repository, Abstract Factory, Dependency Injection, Observer |
 | **Principi** | SOLID, DRY, KISS, Separation of Concerns |
 | **Messaging** | RabbitMQ, Azure Service Bus, pattern Pub/Sub |
 | **Protocolli IoT** | MQTT |
@@ -126,7 +126,7 @@ Sono alla ricerca di ruoli come **Backend Architect** o **Tech Lead .NET**, in c
 ### Database & Search
 | Area | Tecnologie |
 |---|---|
-| **Relazionali** | SQL Server, Azure SQL |
+| **Relazionali** | SQL Server, Azure SQL, SQLite |
 | **NoSQL** | MongoDB |
 | **Full-text Search** | ElasticSearch, Apache Solr |
 
