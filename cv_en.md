@@ -1,5 +1,5 @@
 <table><tr>
-<td>
+<td markdown="1">
 
 # Riccardo Beninatto
 
