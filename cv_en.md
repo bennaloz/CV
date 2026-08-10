@@ -95,6 +95,28 @@ I am looking for roles as **Backend Architect** or **.NET Tech Lead**, where I c
 
 ---
 
+## 🚀 Personal Projects
+
+### Risurge — SaaS platform for training and coaching
+**Personal full-stack project** — actively developed *(early access)*  
+📅 2025 – Present
+
+Web application for gym training management, aimed at both athletes and personal trainers: workout plan editor, session execution, history, analytics (e1RM, volume per muscle group vs MEV/MAV/MRV, ACWR, monotony/strain, adherence), periodic check-ins and an **AI-powered coach** for programming and feedback. Designed, developed and released single-handedly, from architecture to deployment.
+
+- **Layered architecture** (Contracts / DataAccess / Services / Server) with **SOLID** principles applied systematically and automated CI guards against duplication of domain decisions
+- **ASP.NET Core (.NET 10)** backend with REST Web API, **JWT** authentication, Swagger and provider-aware data access (**Azure SQL** in production, **SQLite** in test/dev)
+- **Angular 22** frontend in TypeScript, **PWA** with service worker, 6-language localisation with Transloco and a token-based design system for light/dark themes
+- Integration with **Anthropic AI models** for plan generation, smart import, coach chat and proactive reports, with **end-to-end cost control**: per-subscription spend caps, a single chokepoint that refuses calls without a declared payer, metering and budget gates
+- **Stripe billing** (athlete and trainer plans, entitlements and feature gating), email notifications via MailKit
+- **Azure deployment** (App Service, Azure SQL, Application Insights) with **CI/CD on GitHub Actions**, secretless OIDC authentication, automated versioning and changelog via **release-please**, separate TEST and PROD environments
+- **~860 unit/integration tests** (MSTest) running in parallel, including guard tests covering architecture, type documentation and uniqueness of business decisions
+- Focus on **privacy and GDPR compliance**: versioned and revocable consents, health data (art. 9) under explicit consent, genuine account deletion
+- Development assisted by **AI coding agents** (Claude Code, GitHub Copilot) with project guidelines codified for the model
+
+**Tech stack:** C# .NET 10, ASP.NET Core, Angular 22, TypeScript, Azure SQL, SQLite, Azure App Service, Application Insights, Stripe, Anthropic API, GitHub Actions, MSTest, Astro (landing site)
+
+---
+
 ## 🛠️ Technical Skills
 
 ### Languages & Frameworks
@@ -182,7 +204,7 @@ I am looking for roles as **Backend Architect** or **.NET Tech Lead**, where I c
 
 ## 🏷️ Keywords
 
-`.NET` `C#` `Azure` `Microservices` `Clean Architecture` `DDD` `CQRS` `RabbitMQ` `Docker` `SQL Server` `MongoDB` `ElasticSearch` `Angular` `TypeScript` `CI/CD` `Azure DevOps` `GitHub Copilot` `MSTest` `xUnit` `OWASP` `Team Leadership` `Agile` `Scrum`
+`.NET` `C#` `Azure` `Microservices` `Clean Architecture` `DDD` `CQRS` `RabbitMQ` `Docker` `SQL Server` `MongoDB` `ElasticSearch` `Angular` `TypeScript` `CI/CD` `Azure DevOps` `GitHub Copilot` `MSTest` `xUnit` `OWASP` `Team Leadership` `Agile` `Scrum` `.NET 10` `GitHub Actions` `Stripe` `SaaS` `AI Integration`
 
 ---
 

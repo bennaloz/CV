@@ -95,6 +95,28 @@ Sono alla ricerca di ruoli come **Backend Architect** o **Tech Lead .NET**, in c
 
 ---
 
+## 🚀 Progetti Personali
+
+### Risurge — Piattaforma SaaS per allenamento e coaching
+**Progetto personale full-stack** — in sviluppo attivo *(early access)*  
+📅 2025 – Presente
+
+Applicazione web per la gestione dell'allenamento in palestra, rivolta sia agli atleti sia ai personal trainer: editor di schede, esecuzione della seduta, storico, analisi (e1RM, volume per gruppo muscolare vs MEV/MAV/MRV, ACWR, monotony/strain, aderenza), check-in periodici e un **coach basato su AI** per programmazione e feedback. Progettato, sviluppato e rilasciato in autonomia, dall'architettura al deploy.
+
+- **Architettura a layer** (Contracts / DataAccess / Services / Server) con principi **SOLID** applicati in modo sistematico e guardie automatiche in CI contro la duplicazione delle decisioni di dominio
+- Backend **ASP.NET Core (.NET 10)** con Web API REST, autenticazione **JWT**, Swagger e accesso dati **provider-aware** (**Azure SQL** in produzione, **SQLite** in test/dev)
+- Frontend **Angular 22** in TypeScript, **PWA** con service worker, multilingua (6 lingue) con Transloco e design system a token per tema chiaro/scuro
+- Integrazione con **modelli AI Anthropic** per generazione schede, import intelligente, chat coach e report proattivi, con **controllo dei costi end-to-end**: tetti di spesa per abbonamento, chokepoint unico che rifiuta chiamate senza pagatore dichiarato, metering e budget gate
+- **Billing con Stripe** (piani atleta e trainer, entitlement e gating delle funzionalità), notifiche email via MailKit
+- **Deploy su Azure** (App Service, Azure SQL, Application Insights) con **CI/CD su GitHub Actions**, autenticazione OIDC senza segreti, versionamento automatico e changelog con **release-please**, ambienti TEST e PROD separati
+- **~860 unit/integration test** (MSTest) eseguiti in parallelo, con test-guardia che presidiano architettura, documentazione dei tipi e unicità delle decisioni di business
+- Attenzione a **privacy e compliance GDPR**: consensi versionati e revocabili, dati sanitari (art. 9) sotto consenso esplicito, cancellazione reale dell'account
+- Sviluppo assistito da **coding agents AI** (Claude Code, GitHub Copilot) con linee guida di progetto codificate per il modello
+
+**Tech stack:** C# .NET 10, ASP.NET Core, Angular 22, TypeScript, Azure SQL, SQLite, Azure App Service, Application Insights, Stripe, Anthropic API, GitHub Actions, MSTest, Astro (sito vetrina)
+
+---
+
 ## 🛠️ Competenze Tecniche
 
 ### Linguaggi & Framework
@@ -182,7 +204,7 @@ Sono alla ricerca di ruoli come **Backend Architect** o **Tech Lead .NET**, in c
 
 ## 🏷️ Keywords
 
-`.NET` `C#` `Azure` `Microservizi` `Clean Architecture` `DDD` `CQRS` `RabbitMQ` `Docker` `SQL Server` `MongoDB` `ElasticSearch` `Angular` `TypeScript` `CI/CD` `Azure DevOps` `GitHub Copilot` `MSTest` `xUnit` `OWASP` `Team Leadership` `Agile` `Scrum`
+`.NET` `C#` `Azure` `Microservizi` `Clean Architecture` `DDD` `CQRS` `RabbitMQ` `Docker` `SQL Server` `MongoDB` `ElasticSearch` `Angular` `TypeScript` `CI/CD` `Azure DevOps` `GitHub Copilot` `MSTest` `xUnit` `OWASP` `Team Leadership` `Agile` `Scrum` `.NET 10` `GitHub Actions` `Stripe` `SaaS` `AI Integration`
 
 ---
 
