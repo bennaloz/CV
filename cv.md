@@ -101,12 +101,14 @@ Sono alla ricerca di ruoli come **Backend Architect** o **Tech Lead .NET**, in c
 **Progetto personale full-stack** — in sviluppo attivo *(early access)*  
 📅 2025 – Presente
 
-Applicazione web per la gestione dell'allenamento in palestra, rivolta sia agli atleti sia ai personal trainer: editor di schede, esecuzione della seduta, storico, analisi (e1RM, volume per gruppo muscolare vs MEV/MAV/MRV, ACWR, monotony/strain, aderenza), check-in periodici e un **coach basato su AI** per programmazione e feedback. Progettato, sviluppato e rilasciato in autonomia, dall'architettura al deploy.
+Applicazione web per la gestione dell'allenamento in palestra, rivolta sia agli atleti sia ai personal trainer: editor di schede, esecuzione della seduta, storico, analisi (e1RM, volume per gruppo muscolare vs MEV/MAV/MRV, ACWR, monotony/strain, aderenza) e check-in periodici. **L'intera applicazione è utilizzabile conversando con un agente AI**: l'interfaccia grafica e il coach AI sono due strade equivalenti sulle stesse funzionalità. Progettato, sviluppato e rilasciato in autonomia, dall'architettura al deploy.
 
+- **Interazione AI-first, agentica**: un **agent loop** proprietario con **tool calling** (~40 tool in-process, senza MCP) permette al modello di *operare davvero* nell'app al posto dell'utente — creare, modificare e attivare schede, costruire programmi periodizzati, gestire il catalogo esercizi, registrare massimali e peso, correggere il diario, aggiornare i landmark di volume, leggere profilo, storico e metriche
+- Il coach non è un chatbot bolt-on: ogni tool è **scopato per-atleta** e ha i propri **guardrail** di dominio (semantica a patch sulle correzioni, niente scrittura sul catalogo globale, richiesta di conferma prima delle modifiche importanti, chiarimento esplicito quando la richiesta è ambigua)
 - **Architettura a layer** (Contracts / DataAccess / Services / Server) con principi **SOLID** applicati in modo sistematico e guardie automatiche in CI contro la duplicazione delle decisioni di dominio
 - Backend **ASP.NET Core (.NET 10)** con Web API REST, autenticazione **JWT**, Swagger e accesso dati **provider-aware** (**Azure SQL** in produzione, **SQLite** in test/dev)
 - Frontend **Angular 22** in TypeScript, **PWA** con service worker, multilingua (6 lingue) con Transloco e design system a token per tema chiaro/scuro
-- Integrazione con **modelli AI Anthropic** per generazione schede, import intelligente, chat coach e report proattivi, con **controllo dei costi end-to-end**: tetti di spesa per abbonamento, chokepoint unico che rifiuta chiamate senza pagatore dichiarato, metering e budget gate
+- Integrazione con **modelli AI Anthropic** anche per import intelligente delle schede, memoria conversazionale con compattazione e report proattivi, con **controllo dei costi end-to-end**: tetti di spesa per abbonamento, chokepoint unico che rifiuta chiamate senza pagatore dichiarato, metering, triage del modello e budget gate
 - **Billing con Stripe** (piani atleta e trainer, entitlement e gating delle funzionalità), notifiche email via MailKit
 - **Deploy su Azure** (App Service, Azure SQL, Application Insights) con **CI/CD su GitHub Actions**, autenticazione OIDC senza segreti, versionamento automatico e changelog con **release-please**, ambienti TEST e PROD separati
 - **~860 unit/integration test** (MSTest) eseguiti in parallelo, con test-guardia che presidiano architettura, documentazione dei tipi e unicità delle decisioni di business
@@ -204,7 +206,7 @@ Applicazione web per la gestione dell'allenamento in palestra, rivolta sia agli 
 
 ## 🏷️ Keywords
 
-`.NET` `C#` `Azure` `Microservizi` `Clean Architecture` `DDD` `CQRS` `RabbitMQ` `Docker` `SQL Server` `MongoDB` `ElasticSearch` `Angular` `TypeScript` `CI/CD` `Azure DevOps` `GitHub Copilot` `MSTest` `xUnit` `OWASP` `Team Leadership` `Agile` `Scrum` `.NET 10` `GitHub Actions` `Stripe` `SaaS` `AI Integration`
+`.NET` `C#` `Azure` `Microservizi` `Clean Architecture` `DDD` `CQRS` `RabbitMQ` `Docker` `SQL Server` `MongoDB` `ElasticSearch` `Angular` `TypeScript` `CI/CD` `Azure DevOps` `GitHub Copilot` `MSTest` `xUnit` `OWASP` `Team Leadership` `Agile` `Scrum` `.NET 10` `GitHub Actions` `Stripe` `SaaS` `AI Agent` `Tool Calling` `LLM Integration`
 
 ---
 
