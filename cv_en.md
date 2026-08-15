@@ -11,7 +11,7 @@
 
 In 2024 I led the development of the build, installation and update system for the Garage Equipment division's software: 75,000+ devices across Europe, the US, Brazil, Japan, China, Korea and Australia. Since April 2022 I formed and led a three-person R&D development team.
 
-Currently at Eurogroup, working on a .NET 8 microservice system with RabbitMQ, MongoDB and SQL Server, containerised with Docker, with pipelines on Azure DevOps.
+Currently at Eurogroup, working on a .NET 8 microservice system with RabbitMQ, MongoDB and SQL Server. I built the Azure DevOps pipelines from scratch and introduced the observability stack with Grafana, Loki and Prometheus.
 
 In my own time I build Risurge, a SaaS for athletes and personal trainers that can also be operated by talking to an AI agent. .NET 10, Angular 22, Azure, Anthropic API, CI/CD on GitHub Actions with ~860 tests running in parallel.
 
@@ -25,11 +25,12 @@ In my own time I build Risurge, a SaaS for athletes and personal trainers that c
 
 - Took over an existing **microservice system**, responsible for its maintenance and evolution: asynchronous communication via **RabbitMQ (MQTT)**, polyglot persistence on **MongoDB** and **SQL Server**
 - Applied **resilience patterns** (retry, circuit breaker, timeout, bulkhead) to inter-service communication
-- Work on an environment of services containerised with **Docker**; maintenance of **Azure DevOps pipelines** for build, test and deploy, with secrets managed through the pipeline library
-- Applied **Clean Architecture** and **SOLID** principles when extending the codebase, input validation and **OWASP Top 10** prevention
-- Introduced the use of **Docker** and of **AI coding agents**, now used across the group to accelerate the digitalisation of internal processes
+- Built the **Azure DevOps** build, test and deploy pipelines from scratch, with secrets managed through pipeline libraries
+- Introduced the **observability stack** — **Grafana**, **Loki** and **Prometheus**, run as **Docker** containers
+- Introduced **AI coding agents**, now used across the group to accelerate the digitalisation of internal processes
+- Applied **Clean Architecture** and **SOLID** when extending the codebase, with input validation and **OWASP Top 10** mitigations
 
-**Tech stack:** C# .NET 8, RabbitMQ, MongoDB, SQL Server, Docker, Azure DevOps, MSTest, xUnit
+**Tech stack:** C# .NET 8, RabbitMQ, MongoDB, SQL Server, Docker, Azure DevOps, Grafana, Loki, Prometheus, MSTest, xUnit
 
 ---
 
@@ -43,7 +44,7 @@ In my own time I build Risurge, a SaaS for athletes and personal trainers that c
 
 ---
 
-### Team Leader & Senior Developer
+### Senior Software Developer & Team Lead
 **TEXA S.p.A.** — Monastier di Treviso  
 📅 April 2022 – July 2025 *(Team Leader)*  
 📅 November 2011 – July 2025 *(Developer, then Analyst Developer)*
@@ -112,7 +113,7 @@ Web application for gym training management, aimed at both athletes and personal
 | **Azure** | WebApp, Functions, SQL Database, Service Bus, Application Insights, Key Vault |
 | **Containers** | Docker, Docker Compose |
 | **CI/CD** | Azure DevOps Pipelines, Git, branching strategies |
-| **Monitoring** | Application Insights, structured logging |
+| **Monitoring** | Application Insights, Grafana, Loki, Prometheus, structured logging |
 
 ### Database & Search
 | Area | Technologies |

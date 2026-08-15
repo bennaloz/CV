@@ -19,7 +19,7 @@ Sviluppo software da 14 anni, quasi tutti in TEXA. Applicazioni desktop WPF e Wi
 
 Nel 2024 ho guidato lo sviluppo del sistema di produzione, installazione e aggiornamento del software della divisione Garage Equipment: oltre 75.000 dispositivi tra Europa, Stati Uniti, Brasile, Giappone, Cina, Corea e Australia. Da aprile 2022 ho creato e coordinato un team di tre sviluppatori in R&D.
 
-Oggi in Eurogroup lavoro su un sistema a microservizi in .NET 8 con RabbitMQ, MongoDB e SQL Server, containerizzati con Docker, con pipeline su Azure DevOps.
+Oggi in Eurogroup lavoro su un sistema a microservizi in .NET 8 con RabbitMQ, MongoDB e SQL Server. Ho creato da zero le pipeline Azure DevOps e introdotto lo stack di osservabilità con Grafana, Loki e Prometheus.
 
 Nel tempo libero sviluppo Risurge, SaaS per atleti e personal trainer utilizzabile anche conversando con un agente AI. .NET 10, Angular 22, Azure, Anthropic API, CI/CD su GitHub Actions con ~860 test in parallelo.
 
@@ -33,11 +33,12 @@ Nel tempo libero sviluppo Risurge, SaaS per atleti e personal trainer utilizzabi
 
 - Subentrato su un **sistema a microservizi** esistente, di cui curo manutenzione ed evoluzione: comunicazione asincrona via **RabbitMQ (MQTT)**, persistenza poliglotta su **MongoDB** e **SQL Server**
 - Applicazione di pattern di **resilienza** (retry, circuit breaker, timeout, bulkhead) alla comunicazione tra servizi
-- Lavoro su un ambiente di servizi containerizzati con **Docker**; manutenzione delle **pipeline Azure DevOps** per build, test e deploy, con segreti gestiti tramite pipeline library
+- Creazione da zero delle **pipeline Azure DevOps** per build, test e deploy, con segreti gestiti tramite pipeline library
+- Introduzione dello **stack di osservabilità** (**Grafana**, **Loki**, **Prometheus**) tramite container **Docker**
 - Applicazione di **Clean Architecture** e principi **SOLID** nell'estensione del codebase, input validation e prevenzione **OWASP Top 10**
-- Ho introdotto l'uso di **Docker** e dei **coding agent AI**, oggi utilizzati nel gruppo per accelerare la digitalizzazione dei processi interni
+- Ho introdotto l'uso dei **coding agent AI**, oggi utilizzati nel gruppo per accelerare la digitalizzazione dei processi interni
 
-**Tech stack:** C# .NET 8, RabbitMQ, MongoDB, SQL Server, Docker, Azure DevOps, MSTest, xUnit
+**Tech stack:** C# .NET 8, RabbitMQ, MongoDB, SQL Server, Docker, Azure DevOps, Grafana, Loki, Prometheus, MSTest, xUnit
 
 ---
 
@@ -51,7 +52,7 @@ Nel tempo libero sviluppo Risurge, SaaS per atleti e personal trainer utilizzabi
 
 ---
 
-### Team Leader & Senior Developer
+### Senior Software Developer & Team Lead
 **TEXA S.p.A.** — Monastier di Treviso  
 📅 Aprile 2022 – Luglio 2025 *(Team Leader)*  
 📅 Novembre 2011 – Luglio 2025 *(Sviluppatore, poi Analista Sviluppatore)*
@@ -120,7 +121,7 @@ Applicazione web per la gestione dell'allenamento in palestra, rivolta sia agli 
 | **Azure** | WebApp, Functions, SQL Database, Service Bus, Application Insights, Key Vault |
 | **Container** | Docker, Docker Compose |
 | **CI/CD** | Azure DevOps Pipelines, Git, branching strategies |
-| **Monitoring** | Application Insights, logging strutturato |
+| **Monitoring** | Application Insights, Grafana, Loki, Prometheus, logging strutturato |
 
 ### Database & Search
 | Area | Tecnologie |
