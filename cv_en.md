@@ -1,29 +1,19 @@
-<table><tr>
-<td markdown="1">
-
 # Riccardo Beninatto
 
-📍 Via 11 Febbraio, 2, 31030, Breda di Piave, Treviso | 📞 340 958 5817 | ✉️ beninatto.riccardo@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/riccardo-beninatto-23444265/) | 🇮🇹 Italian | 🇬🇧 English B2  
-Born 03/01/1992 | Gender M | Nationality Italian | Driving Licence A, B
-
-</td>
-<td><img src="Foto CV.jpg" alt="Riccardo Beninatto" width="150"></td>
-</tr></table>
+📍 Treviso, Italy | 📞 340 958 5817 | ✉️ beninatto.riccardo@gmail.com  
+🔗 [LinkedIn](https://www.linkedin.com/in/riccardo-beninatto-23444265/)
 
 ---
 
 ## 🎯 Professional Summary
 
-Graduated as an IT Technician from I.T.I.S. Max Planck in Villorba, I began my professional career at TEXA as a C# .NET desktop application developer. Over the years I took on roles of increasing responsibility, eventually becoming coordinator of a development team, with the goal of optimising internal processes for corporate data management and overseeing strategic projects. Throughout 2024, I led the development of an innovative system for the production, installation and update of software for the Garage Equipment division, distributed globally to support mechanical workshops in vehicle diagnostics.
+14 years building software, most of them at TEXA. WPF and Windows Forms desktop applications, software for diagnostic devices on Windows CE, ASP.NET MVC web portals with Angular frontends, REST Web APIs, Azure cloud services, full-text search engines with Solr and ElasticSearch. Build, test and deploy pipelines on Azure DevOps, unit testing with MSTest, xUnit and Moq.
 
-During my experience at TEXA I gained hands-on knowledge of Agile methodologies — in particular the Scrum framework — major architectural patterns such as DDD and Abstract Factory, and SOLID principles.
+In 2024 I led the development of the build, installation and update system for the Garage Equipment division's software: 75,000+ devices across Europe, the US, Brazil, Japan, China, Korea and Australia. Since April 2022 I formed and led a three-person R&D development team.
 
-**Current Role:** Software Developer
+Currently at Eurogroup, working on a .NET 8 microservice system with RabbitMQ, MongoDB and SQL Server, containerised with Docker, with pipelines on Azure DevOps.
 
-### 🔭 Future Prospects
-
-I am looking for roles as **Backend Architect** or **.NET Tech Lead**, where I can leverage the experience I have gained in developing .NET C# solutions, both on-premise and on-cloud, working on new, dynamic and challenging projects.
+In my own time I build Risurge, a SaaS for athletes and personal trainers that can also be operated by talking to an AI agent. .NET 10, Angular 22, Azure, Anthropic API, CI/CD on GitHub Actions with ~860 tests running in parallel.
 
 ---
 
@@ -33,28 +23,21 @@ I am looking for roles as **Backend Architect** or **.NET Tech Lead**, where I c
 **Eurogroup S.p.A.** — Silea (TV)  
 📅 December 2025 – Present
 
-- Design and development of a **microservices system** with asynchronous communication via **RabbitMQ (MQTT)**
-- Integration with **MongoDB** and **SQL Server** databases in a polyglot architecture
-- Implementation of **resilience patterns** (retry, circuit breaker)
-- Containerisation of services with **Docker** and orchestration in multi-container environments with **Docker Compose**
-- Configuration of **Azure DevOps pipelines** for automated delivery (**build/test/deploy**), without Continuous Deployment
-- Application of **Clean Architecture** and **SOLID** principles to ensure maintainability and testability
-- Adoption of **software security practices**: secure management of secrets and credentials via **Azure Key Vault**, HTTPS enforcement, input validation and prevention of common vulnerabilities (OWASP Top 10)
-- Use of **AI coding agents** (e.g. GitHub Copilot, OpenCode) to increase productivity and code quality
+- Took over an existing **microservice system**, responsible for its maintenance and evolution: asynchronous communication via **RabbitMQ (MQTT)**, polyglot persistence on **MongoDB** and **SQL Server**
+- Applied **resilience patterns** (retry, circuit breaker, timeout, bulkhead) to inter-service communication
+- Work on an environment of services containerised with **Docker**; maintenance of **Azure DevOps pipelines** for build, test and deploy, with secrets managed through the pipeline library
+- Applied **Clean Architecture** and **SOLID** principles when extending the codebase, input validation and **OWASP Top 10** prevention
+- Introduced the use of **Docker** and of **AI coding agents**, now used across the group to accelerate the digitalisation of internal processes
 
 **Tech stack:** C# .NET 8, RabbitMQ, MongoDB, SQL Server, Docker, Azure DevOps, MSTest, xUnit
 
 ---
 
-### Software Analyst Developer
+### Senior Software Developer
 **Stesi S.r.l.** — San Fior (TV)  
 📅 July 2025 – December 2025
 
-- Initial onboarding phase focused on secondary development activities to acquire domain-specific knowledge.
-- Development of an **EDI interfacing system** between the corporate database and external partners via an AS2 server
-- Analysis and acquisition of the **WMS (Warehouse Management System)** domain
-- Development of integration components with a focus on reliability and data-flow traceability
-- Company change to Eurogroup due to a role misaligned with my skills and the technical path described during interviews
+- Development of an **EDI interfacing system** between the corporate database and external partners via an AS2 server, in the **WMS** domain, with a focus on reliability and data-flow traceability
 
 **Tech stack:** C# .NET, SQL Server, EDI/AS2
 
@@ -65,31 +48,15 @@ I am looking for roles as **Backend Architect** or **.NET Tech Lead**, where I c
 📅 April 2022 – July 2025 *(Team Leader)*  
 📅 November 2011 – July 2025 *(Developer, then Analyst Developer)*
 
-**Leadership & Coordination (2022–2025):**
-- Creation and management of a **3-person R&D development team** with direct responsibility for planning, code review and delivery
-- Led the development of an **innovative system for the production, installation and software update** of the Garage Equipment division, distributed **globally** for vehicle diagnostics, managing over **75,000 devices** in **Europe, USA, South America (Brazil), Asia (Japan, China, Korea) and Australia**
-- Technical supervision of resources and mentoring of junior developers
-- Adoption and promotion of **Agile/Scrum** methodologies within the team
-- Adoption of **software security practices**: secure management of secrets and passwords via **Azure Key Vault**, Managed Identity, HTTPS enforcement and vulnerability prevention (OWASP Top 10)
-- Use of **AI coding agents** (e.g. GitHub Copilot) to increase team productivity and improve code quality
+- Proposed and designed the replacement of the division's **InstallShield**-based setup system with a **VS-installer-like** system, covering package production, update frontend and update logic. Owned it from architecture to global rollout
+- The system manages over **75,000 devices** for vehicle diagnostics across Europe, the United States, Brazil, Japan, China, Korea and Australia
+- Full-text search engines on **Apache Solr** (~70,000 documents) and **ElasticSearch** (several million records for statistical analysis)
+- **Azure** cloud services (WebApp, Functions, SQL Database, Service Bus, Application Insights, Key Vault) and **REST Web APIs** with ASP.NET Core
+- **ASP.NET MVC 5** web portal with **Angular/TypeScript** frontend, **WPF** and **Windows Forms** desktop applications, software running on **Windows CE** devices for diagnostics
+- Build and delivery pipelines on **Azure DevOps** and introduction of **unit testing** (MSTest, xUnit, Moq) on critical projects
+- Since April 2022: formed and led a **three-person R&D development team**, responsible for planning, code review and delivery
 
-**Development & Architecture (2011–2025):**
-- Development and maintenance of software for managing a **corporate database in a proprietary format**
-- Setup development via **NSIS**
-- Design and development of **Azure cloud services**: WebApp, Azure Functions, SQL Database, Azure Service Bus, Application Insights, Key Vault
-- Development of **RESTful Web APIs** with ASP.NET Core and WCF services
-- Development of **ASP.NET MVC 5** web portal with **Angular/TypeScript** frontend
-- Implementation of **full-text search engines** based on **Apache Solr** (approx. **70,000 documents**) and **ElasticSearch** (several **million records** for statistical analysis)
-- Development of **WPF** and **Windows Forms** desktop applications for corporate data management
-- Development of embedded **Windows CE** software for diagnostic devices
-- Implementation of **unit tests** with **MSTest**, **xUnit** and **Moq** to support code quality on critical projects (from 2020)
-- Creation of **Azure DevOps pipelines** for automated delivery (**build/test/deploy**), without Continuous Deployment
-- Use of **AI coding agents** (e.g. GitHub Copilot) to increase productivity and accelerate development
-- Development of automated data processing workflows with scheduling and integrated notifications
-- Supervision of internal projects for **data production for business purposes**
-- Management of projects related to major **business areas**
-
-**Tech stack:** C# .NET/.NET Core, Azure (WebApp, Functions, Service Bus, SQL, App Insights, Key Vault), ASP.NET MVC/Web API, Angular, TypeScript, ElasticSearch, Solr, WPF, WCF, MSTest, xUnit, Moq, Azure DevOps, Git
+**Tech stack:** C# .NET/.NET Core, Azure, ASP.NET MVC/Web API, Angular, TypeScript, ElasticSearch, Solr, WPF, WCF, Azure DevOps, Git
 
 **Sector:** Automotive / Vehicle Diagnostics
 
@@ -187,35 +154,6 @@ Web application for gym training management, aimed at both athletes and personal
 
 ---
 
-## 🤝 Soft Skills
+## 🌱 Interests
 
-**Communication skills:**
-- Strong listening skills and ability to empathise with others.
-
-**Professional skills:**
-- Quick learner and flexible. Good organisational ability in planning activities based on established priorities.
-- From April 2022 I built my own working group within the R&D department, with the aim of improving development and project management activities.
-
----
-
-## 🌱 Other Interests
-
-- Gardening, fitness and nutrition
-
----
-
-## 🏷️ Keywords
-
-`.NET` `C#` `Azure` `Microservices` `Clean Architecture` `DDD` `CQRS` `RabbitMQ` `Docker` `SQL Server` `MongoDB` `ElasticSearch` `Angular` `TypeScript` `CI/CD` `Azure DevOps` `GitHub Copilot` `MSTest` `xUnit` `OWASP` `Team Leadership` `Agile` `Scrum` `.NET 10` `GitHub Actions` `Stripe` `SaaS` `AI Agent` `Tool Calling` `LLM Integration`
-
----
-
-## 🔎 Extra Training (non-IT)
-
-- **16-hour seminar on nutrition and sports supplementation** — Private instructor Marco Venturi (2015) — San Polo di Piave Municipal Library
-- **AutoCAD 2D/3D Designer** — Pragma (2013–2014) — Grade: 28/30
-- **BodyBuilding & Fitness Instructor Level 1** — C.S.E.N. (2014) — Anatomy, Physiology and Basic Biomechanics — Top marks
-
----
-
-*I authorise the processing of my personal data pursuant to Legislative Decree 30 June 2003, No. 196 "Code regarding the protection of personal data".*
+Strength training, gardening, hiking in the Dolomites.
