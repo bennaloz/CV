@@ -66,7 +66,7 @@ In my own time I build Risurge, a SaaS for athletes and personal trainers that c
 
 ### Risurge — SaaS platform for training and coaching
 **Personal full-stack project** — actively developed *(early access)*  
-📅 2025 – Present
+📅 2026 – Present
 
 Web application for gym training management, aimed at both athletes and personal trainers: workout plan editor, session execution, history, analytics and periodic check-ins. **The whole application can be operated by talking to an AI agent**: the GUI and the AI coach are two equivalent paths to the same features. Designed, developed and released single-handedly, from architecture to deployment.
 

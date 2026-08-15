@@ -74,7 +74,7 @@ Nel tempo libero sviluppo Risurge, SaaS per atleti e personal trainer utilizzabi
 
 ### Risurge — Piattaforma SaaS per allenamento e coaching
 **Progetto personale full-stack** — in sviluppo attivo *(early access)*  
-📅 2025 – Presente
+📅 2026 – Presente
 
 Applicazione web per la gestione dell'allenamento in palestra, rivolta sia agli atleti sia ai personal trainer: editor di schede, esecuzione della seduta, storico, analisi e check-in periodici. **L'intera applicazione è utilizzabile conversando con un agente AI**: l'interfaccia grafica e il coach AI sono due strade equivalenti sulle stesse funzionalità. Progettato, sviluppato e rilasciato in autonomia, dall'architettura al deploy.
 
