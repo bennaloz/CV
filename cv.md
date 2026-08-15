@@ -23,10 +23,6 @@ Oggi in Eurogroup lavoro su un sistema a microservizi in .NET 8 con RabbitMQ, Mo
 
 Nel tempo libero sviluppo Risurge, SaaS per atleti e personal trainer utilizzabile anche conversando con un agente AI. .NET 10, Angular 22, Azure, Anthropic API, CI/CD su GitHub Actions con ~860 test in parallelo.
 
-### 🔭 Prospettive Future
-
-Sono alla ricerca di ruoli come **Backend Architect** o **Tech Lead .NET**, in cui valorizzare l'esperienza maturata nello sviluppo di soluzioni .NET C#, sia on-premise che on-cloud, lavorando su progetti nuovi, dinamici e sfidanti.
-
 ---
 
 ## 💼 Esperienza Professionale
