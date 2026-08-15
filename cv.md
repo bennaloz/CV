@@ -110,7 +110,7 @@ Applicazione web per la gestione dell'allenamento in palestra, rivolta sia agli 
 - Frontend **Angular 22** in TypeScript, **PWA** con service worker, multilingua (6 lingue) con Transloco e design system a token per tema chiaro/scuro
 - Integrazione con **modelli AI Anthropic** anche per import intelligente delle schede di allenamento, memoria conversazionale con compattazione e report proattivi, con **controllo dei costi end-to-end**: tetti di spesa per abbonamento, chokepoint unico che rifiuta chiamate senza pagatore dichiarato, metering, triage del modello e budget gate
 - **Billing con Stripe** (piani atleta e trainer, entitlement e gating delle funzionalità), notifiche email via MailKit
-- **Deploy su Azure** (App Service, Azure SQL, Application Insights) con **CI/CD su GitHub Actions**, autenticazione OIDC senza segreti, versionamento automatico e changelog con **release-please**, ambienti TEST e PROD separati
+- **Deploy su Azure** (App Service, Azure SQL, Application Insights) con **CI/CD su GitHub Actions** con autenticazione a Azure via **OIDC**, versionamento automatico e changelog con **release-please**, ambienti TEST e PROD separati
 - **~860 unit/integration test** (MSTest) eseguiti in parallelo, con test-guardia che presidiano architettura, documentazione dei tipi e unicità delle decisioni di business
 - Attenzione a **privacy e compliance GDPR**: consensi versionati e revocabili, dati sanitari (art. 9) sotto consenso esplicito, cancellazione reale dell'account
 - Sviluppo assistito da **coding agents AI** (Claude Code, GitHub Copilot) con linee guida di progetto codificate per il modello

@@ -110,7 +110,7 @@ Web application for gym training management, aimed at both athletes and personal
 - **Angular 22** frontend in TypeScript, **PWA** with service worker, 6-language localisation with Transloco and a token-based design system for light/dark themes
 - Integration with **Anthropic AI models** also for smart training-plan import, conversational memory with compaction and proactive reports, with **end-to-end cost control**: per-subscription spend caps, a single chokepoint that refuses calls without a declared payer, metering, model triage and budget gates
 - **Stripe billing** (athlete and trainer plans, entitlements and feature gating), email notifications via MailKit
-- **Azure deployment** (App Service, Azure SQL, Application Insights) with **CI/CD on GitHub Actions**, secretless OIDC authentication, automated versioning and changelog via **release-please**, separate TEST and PROD environments
+- **Azure deployment** (App Service, Azure SQL, Application Insights) with **CI/CD on GitHub Actions** with **OIDC** authentication to Azure, automated versioning and changelog via **release-please**, separate TEST and PROD environments
 - **~860 unit/integration tests** (MSTest) running in parallel, including guard tests covering architecture, type documentation and uniqueness of business decisions
 - Focus on **privacy and GDPR compliance**: versioned and revocable consents, health data (art. 9) under explicit consent, genuine account deletion
 - Development assisted by **AI coding agents** (Claude Code, GitHub Copilot) with project guidelines codified for the model
