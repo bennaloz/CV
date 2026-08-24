@@ -72,7 +72,7 @@ Nel tempo libero sviluppo Risurge, SaaS per atleti utilizzabile anche conversand
 
 ## 🚀 Progetti Personali
 
-### Risurge — Piattaforma SaaS per allenamento e coaching
+### Risurge — Piattaforma SaaS per l'allenamento
 **Progetto personale full-stack** — in sviluppo attivo *(early access)*  
 📅 2026 – Presente
 

@@ -64,7 +64,7 @@ In my own time I build Risurge, a SaaS for athletes that can also be operated by
 
 ## 🚀 Personal Projects
 
-### Risurge — SaaS platform for training and coaching
+### Risurge — SaaS platform for training
 **Personal full-stack project** — actively developed *(early access)*  
 📅 2026 – Present
 
