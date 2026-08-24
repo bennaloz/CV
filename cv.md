@@ -21,7 +21,7 @@ Nel 2024 ho guidato lo sviluppo del sistema di produzione, installazione e aggio
 
 Oggi in Eurogroup lavoro su un sistema a microservizi in .NET 8 con RabbitMQ, MongoDB e SQL Server. Ho creato da zero le pipeline Azure DevOps e introdotto lo stack di osservabilità con Grafana, Loki e Prometheus.
 
-Nel tempo libero sviluppo Risurge, SaaS per atleti e personal trainer utilizzabile anche conversando con un agente AI. .NET 10, Angular 22, Azure, Anthropic API, CI/CD su GitHub Actions con ~860 test in parallelo.
+Nel tempo libero sviluppo Risurge, SaaS per atleti utilizzabile anche conversando con un agente AI. .NET 10, Angular 22, Azure, Anthropic API, CI/CD su GitHub Actions con ~860 test in parallelo.
 
 ---
 
@@ -54,8 +54,7 @@ Nel tempo libero sviluppo Risurge, SaaS per atleti e personal trainer utilizzabi
 
 ### Senior Software Developer & Team Lead
 **TEXA S.p.A.** — Monastier di Treviso  
-📅 Aprile 2022 – Luglio 2025 *(Team Leader)*  
-📅 Novembre 2011 – Luglio 2025 *(Sviluppatore, poi Analista Sviluppatore)*
+📅 Novembre 2011 – Luglio 2025 *(Team Lead da aprile 2022)*
 
 - Ho proposto e progettato la sostituzione del sistema di setup della divisione basato su **InstallShield** con un sistema **VS-installer-like**, comprensivo di produzione pacchetti, frontend di aggiornamento e logiche di update. Seguito dall'architettura al rollout globale
 - Il sistema gestisce oltre **75.000 dispositivi** per la diagnostica veicolare in Europa, Stati Uniti, Brasile, Giappone, Cina, Corea e Australia
@@ -77,7 +76,7 @@ Nel tempo libero sviluppo Risurge, SaaS per atleti e personal trainer utilizzabi
 **Progetto personale full-stack** — in sviluppo attivo *(early access)*  
 📅 2026 – Presente
 
-Applicazione web per la gestione dell'allenamento in palestra, rivolta sia agli atleti sia ai personal trainer: editor di schede, esecuzione della seduta, storico, analisi e check-in periodici. **L'intera applicazione è utilizzabile conversando con un agente AI**: l'interfaccia grafica e il coach AI sono due strade equivalenti sulle stesse funzionalità. Progettato, sviluppato e rilasciato in autonomia, dall'architettura al deploy.
+Applicazione web per la gestione dell'allenamento in palestra, rivolta agli atleti: editor di schede, esecuzione della seduta, storico, analisi e check-in periodici. **L'intera applicazione è utilizzabile conversando con un agente AI**: l'interfaccia grafica e il coach AI sono due strade equivalenti sulle stesse funzionalità. Progettato, sviluppato e rilasciato in autonomia, dall'architettura al deploy.
 
 - **Interazione AI-first, agentica**: un **agent loop** proprietario con **tool calling** (~40 tool in-process, senza MCP) permette al modello di *operare davvero* nell'app al posto dell'utente — creare, modificare e attivare schede, costruire programmi periodizzati, gestire il catalogo esercizi, registrare massimali e peso, correggere il diario, aggiornare i landmark di volume, leggere profilo, storico e metriche
 - Il coach non è un chatbot bolt-on: ogni tool è **scopato per-atleta** e ha i propri **guardrail** di dominio (semantica a patch sulle correzioni, richiesta di conferma prima delle modifiche importanti, chiarimento esplicito quando la richiesta è ambigua)

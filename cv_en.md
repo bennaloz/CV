@@ -13,7 +13,7 @@ In 2024 I led the development of the build, installation and update system for t
 
 Currently at Eurogroup, working on a .NET 8 microservice system with RabbitMQ, MongoDB and SQL Server. I built the Azure DevOps pipelines from scratch and introduced the observability stack with Grafana, Loki and Prometheus.
 
-In my own time I build Risurge, a SaaS for athletes and personal trainers that can also be operated by talking to an AI agent. .NET 10, Angular 22, Azure, Anthropic API, CI/CD on GitHub Actions with ~860 tests running in parallel.
+In my own time I build Risurge, a SaaS for athletes that can also be operated by talking to an AI agent. .NET 10, Angular 22, Azure, Anthropic API, CI/CD on GitHub Actions with ~860 tests running in parallel.
 
 ---
 
@@ -46,8 +46,7 @@ In my own time I build Risurge, a SaaS for athletes and personal trainers that c
 
 ### Senior Software Developer & Team Lead
 **TEXA S.p.A.** — Monastier di Treviso  
-📅 April 2022 – July 2025 *(Team Leader)*  
-📅 November 2011 – July 2025 *(Developer, then Analyst Developer)*
+📅 November 2011 – July 2025 *(Team Lead since April 2022)*
 
 - Proposed and designed the replacement of the division's **InstallShield**-based setup system with a **VS-installer-like** system, covering package production, update frontend and update logic. Owned it from architecture to global rollout
 - The system manages over **75,000 devices** for vehicle diagnostics across Europe, the United States, Brazil, Japan, China, Korea and Australia
@@ -69,7 +68,7 @@ In my own time I build Risurge, a SaaS for athletes and personal trainers that c
 **Personal full-stack project** — actively developed *(early access)*  
 📅 2026 – Present
 
-Web application for gym training management, aimed at both athletes and personal trainers: workout plan editor, session execution, history, analytics and periodic check-ins. **The whole application can be operated by talking to an AI agent**: the GUI and the AI coach are two equivalent paths to the same features. Designed, developed and released single-handedly, from architecture to deployment.
+Web application for gym training management, aimed at athletes: workout plan editor, session execution, history, analytics and periodic check-ins. **The whole application can be operated by talking to an AI agent**: the GUI and the AI coach are two equivalent paths to the same features. Designed, developed and released single-handedly, from architecture to deployment.
 
 - **AI-first, agentic interaction**: a custom **agent loop** with **tool calling** (~40 in-process tools, no MCP) lets the model *actually operate* the app on the user's behalf — create, edit and activate plans, build periodised programs, manage the exercise catalogue, log one-rep maxes and body weight, correct the training diary, update volume landmarks, read profile, history and metrics
 - The coach is not a bolt-on chatbot: every tool is **scoped per athlete** and carries its own domain **guardrails** (patch semantics on corrections, explicit confirmation before significant changes, clarification requests when the ask is ambiguous)
