@@ -134,7 +134,7 @@ Applicazione web per la gestione dell'allenamento in palestra, rivolta agli atle
 |---|---|
 | **Unit Testing** | MSTest, xUnit, Moq, FluentAssertions |
 | **Approccio** | Test-driven development, code review sistematiche |
-| **AI & Produttività** | GitHub Copilot, coding agents AI |
+| **AI & Produttività** | Claude Code, GitHub Copilot |
 
 ### Security
 | Area | Competenze |

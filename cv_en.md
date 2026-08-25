@@ -126,7 +126,7 @@ Web application for gym training management, aimed at athletes: workout plan edi
 |---|---|
 | **Unit Testing** | MSTest, xUnit, Moq, FluentAssertions |
 | **Approach** | Test-driven development, systematic code reviews |
-| **AI & Productivity** | GitHub Copilot, AI coding agents |
+| **AI & Productivity** | Claude Code, GitHub Copilot |
 
 ### Security
 | Area | Skills |
