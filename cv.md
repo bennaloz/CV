@@ -21,7 +21,7 @@ Nel 2024 ho guidato lo sviluppo del sistema di produzione, installazione e aggio
 
 Oggi in Eurogroup lavoro su un sistema a microservizi in .NET 8 con RabbitMQ, MongoDB e SQL Server. Ho creato da zero le pipeline Azure DevOps e introdotto lo stack di osservabilità con Grafana, Loki e Prometheus.
 
-Nel tempo libero sviluppo Risurge, SaaS per atleti utilizzabile anche conversando con un agente AI. .NET 10, Angular 22, Azure, Anthropic API, CI/CD su GitHub Actions con ~860 test in parallelo.
+Nel tempo libero sviluppo Risurge, SaaS per atleti utilizzabile anche conversando con un agente AI. .NET 10, Angular 22, Azure, Anthropic API, CI/CD su GitHub Actions.
 
 ---
 
@@ -79,7 +79,7 @@ Nel tempo libero sviluppo Risurge, SaaS per atleti utilizzabile anche conversand
 Applicazione web per la gestione dell'allenamento in palestra, rivolta agli atleti: editor di schede, esecuzione della seduta, storico, analisi e check-in periodici. **L'intera applicazione è utilizzabile conversando con un agente AI**: l'interfaccia grafica e il coach AI sono due strade equivalenti sulle stesse funzionalità. Progettato, sviluppato e rilasciato in autonomia, dall'architettura al deploy.
 
 - **Interazione AI-first, agentica**: un **agent loop** proprietario con **tool calling** (~40 tool in-process, senza MCP) permette al modello di *operare davvero* nell'app al posto dell'utente — creare, modificare e attivare schede, costruire programmi periodizzati, gestire il catalogo esercizi, registrare massimali e peso, correggere il diario, aggiornare i landmark di volume, leggere profilo, storico e metriche
-- Il coach non è un chatbot bolt-on: ogni tool è **scopato per-atleta** e ha i propri **guardrail** di dominio (semantica a patch sulle correzioni, richiesta di conferma prima delle modifiche importanti, chiarimento esplicito quando la richiesta è ambigua)
+- Il coach non è un chatbot bolt-on: ogni tool opera **entro i confini del singolo atleta** e ha i propri **guardrail** di dominio (semantica a patch sulle correzioni, richiesta di conferma prima delle modifiche importanti, chiarimento esplicito quando la richiesta è ambigua)
 - **Architettura a layer** (Contracts / DataAccess / Services / Server) con principi **SOLID** applicati in modo sistematico e guardie automatiche in CI contro la duplicazione delle decisioni di dominio
 - Backend **ASP.NET Core (.NET 10)** con Web API REST, autenticazione **JWT**, Swagger e accesso dati **provider-aware** (**Azure SQL** in produzione, **SQLite** in test/dev)
 - Frontend **Angular 22** in TypeScript, **PWA** con service worker, multilingua (6 lingue) con Transloco e design system a token per tema chiaro/scuro
