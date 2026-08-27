@@ -13,7 +13,7 @@ In 2024 I led the development of the build, installation and update system for t
 
 Currently at Eurogroup, working on a .NET 8 microservice system with RabbitMQ, MongoDB and SQL Server. I built the Azure DevOps pipelines from scratch and introduced the observability stack with Grafana, Loki and Prometheus.
 
-In my own time I build Risurge, a SaaS for athletes that can also be operated by talking to an AI agent. .NET 10, Angular 22, Azure, Anthropic API, CI/CD on GitHub Actions with ~860 tests running in parallel.
+In my own time I build Risurge, a SaaS for athletes that can also be operated by talking to an AI agent. .NET 10, Angular 22, Azure, Anthropic API, CI/CD on GitHub Actions.
 
 ---
 
